@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping(value = "/api/categorys", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/api/categories", produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin(origins = "*")
 //@Api(tags = "Product Categories Api")
 public class CategoryResource {
